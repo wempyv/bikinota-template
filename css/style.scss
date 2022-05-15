@@ -18,7 +18,6 @@ body {
     }
 
     .navbar-nav {
-
         a {
             border: 1px solid #E2DEDE;
             color: #3A454E;
@@ -48,7 +47,7 @@ body {
 
         @media(max-width:768px) {
             width: 100%;
-            font-size: 26px;
+            font-size: 22px;
         }
     }
 
@@ -65,12 +64,13 @@ body {
 
         @media(max-width:768px) {
             width: 100%;
+            font-size: 12px;
         }
     }
 
     .btn {
-        margin-top: 20px;
-        padding: 6px 1.4rem;
+        margin-top: 1rem;
+        padding: .3rem 1.4rem;
         background-color: #4E60C4;
 
         &:hover {
