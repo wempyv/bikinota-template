@@ -174,8 +174,18 @@ body {
 }
 
 .sidebar .nav-list {
-  margin-top: 20px;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sidebar li {
@@ -201,10 +211,6 @@ body {
   pointer-events: none;
   -webkit-transition: 0s;
   transition: 0s;
-}
-
-.sidebar li .tooltip .active {
-  color: #212C35;
 }
 
 .sidebar li:hover .tooltip {
@@ -237,6 +243,10 @@ body {
   background: #FAFAFA;
 }
 
+.sidebar li .active {
+  background: #FFF;
+}
+
 .sidebar li a:hover {
   background: #FFF;
 }
@@ -265,7 +275,7 @@ body {
 .sidebar li a:hover i {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  color: #11101D;
+  color: #212C35;
 }
 
 .sidebar li i {
@@ -275,32 +285,8 @@ body {
   border-radius: 12px;
 }
 
-.sidebar li.profile {
-  position: fixed;
-  height: 60px;
-  width: 78px;
-  left: 0;
-  bottom: -8px;
-  padding: 10px 14px;
-  background: #1d1b31;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  overflow: hidden;
-}
-
-.sidebar.open li.profile {
-  width: 250px;
-}
-
-.sidebar li .profile-details {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+.sidebar li a .active {
+  color: #212C35;
 }
 
 .home-section {
