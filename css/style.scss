@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@300;400;500;600&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
-    .navbar-brand{
-        img{
-            height: 35px;
+.container {
+    .navbar-brand {
+        img {
+            min-height: 100%;
         }
     }
-    .navbar-nav{
-        a{
+
+    .navbar-nav {
+
+        a {
             border: 1px solid #E2DEDE;
             color: #3A454E;
-            &:hover{
-                border :1px solid #212C35;
+
+            &:hover {
+                border: 1px solid #212C35;
                 background-color: white;
                 color: #212C35;
             }
@@ -28,7 +32,7 @@ body{
     }
 }
 
-.jumbotron{
+.jumbotron {
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -37,39 +41,39 @@ body{
     text-align: center;
     background: white;
 
-    h1{
+    h1 {
         text-transform: capitalize;
         font-weight: 600;
         color: #212C35;
 
-        @media(max-width:768px){
+        @media(max-width:768px) {
             width: 100%;
-            font-size: 28px;
+            font-size: 26px;
         }
     }
 
-    p{
+    p {
         width: 30rem;
         font-size: 18px;
         font-weight: 300;
         color: #C0B9B9;
 
-        span{
+        span {
             font-weight: 600;
             color: #212C35;
         }
 
-        @media(max-width:768px){
+        @media(max-width:768px) {
             width: 100%;
         }
     }
 
-    .btn{
+    .btn {
         margin-top: 20px;
         padding: 6px 1.4rem;
         background-color: #4E60C4;
 
-        &:hover{
+        &:hover {
             background-color: #5964a1;
         }
     }
