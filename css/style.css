@@ -14,6 +14,17 @@ body {
   height: 35px;
 }
 
+.container .navbar-nav a {
+  border: 1px solid #E2DEDE;
+  color: #3A454E;
+}
+
+.container .navbar-nav a:hover {
+  border: 1px solid #212C35;
+  background-color: white;
+  color: #212C35;
+}
+
 .jumbotron {
   min-height: 80vh;
   display: -webkit-box;
@@ -67,5 +78,10 @@ body {
 .jumbotron .btn {
   margin-top: 20px;
   padding: 6px 1.4rem;
+  background-color: #4E60C4;
+}
+
+.jumbotron .btn:hover {
+  background-color: #5964a1;
 }
 /*# sourceMappingURL=style.css.map */
