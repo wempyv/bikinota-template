@@ -11,7 +11,7 @@ body {
 }
 
 .container .navbar-brand img {
-  min-height: 100%;
+  height: 2.5rem;
 }
 
 .container .navbar-nav a {
@@ -128,6 +128,7 @@ body {
   margin-left: 18px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .sidebar .logo-details .logo_name img {
