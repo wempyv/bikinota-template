@@ -288,13 +288,19 @@ body {
     }
 
     .table-responsive-sm {
+
         tbody {
+            tr {
+                background: #FFF8F8;
+            }
+
             td {
                 border: none !important;
                 cursor: pointer;
-                background: #FFF8F8;
+                white-space: nowrap;
 
                 .title-name {
+
                     font-size: 12px;
                     font-weight: 300;
                     color: #BAA7A7;
@@ -319,8 +325,6 @@ body {
             }
         }
     }
-
-
 }
 
 .sidebar.open~.home-section {
@@ -335,7 +339,6 @@ body {
     font-weight: 500;
     margin: 18px
 }
-
 
 @media (max-width: 420px) {
     .sidebar li .tooltip {

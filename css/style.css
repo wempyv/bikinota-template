@@ -314,10 +314,14 @@ body {
   margin-top: 2rem;
 }
 
+.home-section .table-responsive-sm tbody tr {
+  background: #FFF8F8;
+}
+
 .home-section .table-responsive-sm tbody td {
   border: none !important;
   cursor: pointer;
-  background: #FFF8F8;
+  white-space: nowrap;
 }
 
 .home-section .table-responsive-sm tbody td .title-name {
