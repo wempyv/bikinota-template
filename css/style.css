@@ -10,6 +10,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+  margin-top: 1rem;
+  padding: .3rem 1.4rem;
+  background-color: #4E60C4;
+}
+
+.btn:hover {
+  background-color: #5964a1;
+}
+
 .container .navbar-brand img {
   height: 2.5rem;
 }
@@ -74,16 +84,6 @@ body {
     width: 100%;
     font-size: 12px;
   }
-}
-
-.jumbotron .btn {
-  margin-top: 1rem;
-  padding: .3rem 1.4rem;
-  background-color: #4E60C4;
-}
-
-.jumbotron .btn:hover {
-  background-color: #5964a1;
 }
 
 .sidebar {
@@ -291,9 +291,61 @@ body {
   z-index: 2;
 }
 
+.home-section .profile-pic {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: .4rem;
+}
+
+.home-section .profile-name {
+  font-size: 14px;
+  color: #212C35;
+  text-decoration: none;
+}
+
+.home-section .profile-name:hover {
+  color: #3d576b;
+}
+
+.home-section .button-add-nota {
+  margin-top: 2rem;
+}
+
+.home-section .table-responsive-sm tbody td {
+  border: none !important;
+  cursor: pointer;
+  background: #FFF8F8;
+}
+
+.home-section .table-responsive-sm tbody td .title-name {
+  font-size: 12px;
+  font-weight: 300;
+  color: #BAA7A7;
+}
+
+.home-section .table-responsive-sm tbody .header-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212C35;
+}
+
+.home-section .table-responsive-sm tbody a .bx {
+  font-size: 20px;
+  color: #E9D1D1;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.home-section .table-responsive-sm tbody a .bx:hover {
+  color: #928989;
+}
+
 .sidebar.open ~ .home-section {
-  left: 300px;
-  width: calc(100% - 300px);
+  left: 280px;
+  width: calc(100% - 280px);
 }
 
 .home-section .text {
