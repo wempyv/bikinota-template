@@ -316,6 +316,7 @@ body {
 
 .home-section .table-responsive-sm tbody tr {
   background: #FFF8F8;
+  border: .6rem solid white;
 }
 
 .home-section .table-responsive-sm tbody td {

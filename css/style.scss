@@ -292,6 +292,7 @@ body {
         tbody {
             tr {
                 background: #FFF8F8;
+                border: .6rem solid white;
             }
 
             td {
@@ -300,7 +301,6 @@ body {
                 white-space: nowrap;
 
                 .title-name {
-
                     font-size: 12px;
                     font-weight: 300;
                     color: #BAA7A7;
