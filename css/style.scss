@@ -273,6 +273,10 @@ body {
         border-radius: 50%;
         object-fit: cover;
         margin-right: .4rem;
+
+        @media(max-width:500px) {
+            display: none;
+        }
     }
 
     .profile-name {
@@ -283,6 +287,10 @@ body {
         &:hover {
             color: #3d576b;
         }
+
+        @media(max-width:500px) {
+            display: none;
+        }
     }
 
     .button-add-nota {
@@ -292,12 +300,17 @@ body {
     .table-responsive-sm {
         tbody {
             tr {
-                background: #FFF8F8;
                 border: .6rem solid white;
+                background: #FFF8F8;
+                border-radius: 12px;
+                transition: .5s background-color;
+
+                &:hover {
+                    background: #eaebee;
+                }
             }
 
             td {
-                border: none !important;
                 cursor: pointer;
                 white-space: nowrap;
 

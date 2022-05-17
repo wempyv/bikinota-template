@@ -300,6 +300,12 @@ body {
   margin-right: .4rem;
 }
 
+@media (max-width: 500px) {
+  .home-section .profile-pic {
+    display: none;
+  }
+}
+
 .home-section .profile-name {
   font-size: 14px;
   color: #212C35;
@@ -310,17 +316,29 @@ body {
   color: #3d576b;
 }
 
+@media (max-width: 500px) {
+  .home-section .profile-name {
+    display: none;
+  }
+}
+
 .home-section .button-add-nota {
   margin-top: 2rem;
 }
 
 .home-section .table-responsive-sm tbody tr {
-  background: #FFF8F8;
   border: .6rem solid white;
+  background: #FFF8F8;
+  border-radius: 12px;
+  -webkit-transition: .5s background-color;
+  transition: .5s background-color;
+}
+
+.home-section .table-responsive-sm tbody tr:hover {
+  background: #eaebee;
 }
 
 .home-section .table-responsive-sm tbody td {
-  border: none !important;
   cursor: pointer;
   white-space: nowrap;
 }
