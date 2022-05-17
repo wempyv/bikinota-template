@@ -10,7 +10,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+nav .breadcrumb {
+    font-size: 14px;
+}
 
 .container {
     .navbar-brand {
@@ -361,10 +363,27 @@ body {
 }
 
 .buat-nota-section {
-
     .section-breadcrumb {
-
         margin-top: 4rem;
+
+
+        .breadcrumb-item span {
+            font-weight: 600;
+            color: #212C35;
+
+            i {
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+
+        .btn {
+            border: 1px solid #E2DEDE;
+
+            i {
+                font-size: 22px;
+            }
+        }
     }
 
     h3 {
@@ -397,6 +416,27 @@ body {
                 width: 4rem;
                 margin: auto;
             }
+        }
+    }
+}
+
+
+.detail-nota-section {
+    label {
+        font-size: 18px;
+        color: #BFBFBF;
+    }
+
+    p {
+        color: #212C35;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    tr {
+        p {
+            font-weight: 400;
+            font-size: 16px;
         }
     }
 }

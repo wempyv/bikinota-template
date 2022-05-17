@@ -20,8 +20,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Buat Nota</title>
+    <title>Detail Nota</title>
   </head>
+
   <body>
     <div class="sidebar">
       <div class="logo-details">
@@ -39,7 +40,7 @@
           <span class="tooltip">Riwayat Nota</span>
         </li>
         <li>
-          <a href="#" >
+          <a href="#">
             <i class="bx bx-wrench"></i>
             <span class="links_name">Pengaturan</span>
           </a>
@@ -54,12 +55,12 @@
         </li>
       </ul>
     </div>
-    <section class="home-section buat-nota-section">
+    <section class="home-section detail-nota-section">
       <nav
         class="navbar navbar-expand-lg navbar-light mt-2 d-flex justify-content-between align-items-center"
       >
-        <a class="navbar-brand d-flex align-items-center" href="/"
-          >Buat Nota Baru
+        <a class="navbar-brand d-flex align-items-center" href="#"
+          >Detail Nota
         </a>
         <div>
           <div class="navbar-nav ml-auto">
@@ -75,36 +76,46 @@
         </div>
       </nav>
       <div class="container mt-4">
-        <h3 class="text-right">#NOTA72831</h3>
-        <form action="#" class="mt-4">
+        <div
+          class="d-flex align-items-center justify-content-between section-breadcrumb"
+        >
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white p-0">
+              <li class="breadcrumb-item">
+                <a href="/dashboard.html">Riwayat Nota</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Detail Nota
+                <span>#NOTA7283 <i class="bx bx-copy-alt"></i></span>
+              </li>
+            </ol>
+          </nav>
+          <button class="btn btn-outline-dark">
+            <i class="bx bx-paper-plane"></i> Kirim Nota
+          </button>
+        </div>
+        <div class="mt-4">
           <div class="row">
             <div class="col-sm">
               <div class="form-group">
                 <label>Pembayaran Kepada*</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Nama, Nomor Handphone"
-                />
+                <p>Wempy Virgana</p>
               </div>
             </div>
             <div class="col-sm">
               <div class="form-group">
                 <label>Tanggal Nota*</label>
-                <input type="date" class="form-control" />
+                <p>30 April 2022</p>
               </div>
             </div>
             <div class="col-sm">
               <div class="form-group">
                 <label>Jatuh Tempo</label>
-                <input type="date" class="form-control" />
+                <p>-</p>
               </div>
             </div>
           </div>
-          <hr />
-          <button class="btn btn-outline-primary form-control mt-2">
-            + Tambah Barang
-          </button>
+
           <table class="table mt-4 text-center table-responsive-sm">
             <thead>
               <tr>
@@ -119,61 +130,59 @@
               <tr>
                 <th scope="row">1</th>
                 <td>
-                  <input type="text"  class="text-center form-control" value="Lemari Ikea"></input>
+                  <p>Lemari Ikea</p>
                 </td>
-                <td> <input  class="text-center form-control quantity-input" type="number" value="2"></input></td>
+                <td>
+                  <p>2</p>
+                </td>
                 <td>320.000</td>
                 <td>640.000</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
                 <td>
-                  <input type="text"  class="text-center form-control" value="Bed Cover"></input>
+                  <p>Bed Cover</p>
                 </td>
-                <td> <input  class="text-center form-control quantity-input" type="number" value="4"></input></td>
+                <td>
+                  <p>4</p>
+                </td>
                 <td>200.000</td>
                 <td>800.000</td>
               </tr>
             </tbody>
           </table>
-
+          <div class="row mb-4">
+            <div class="col-sm"></div>
+            <div class="col-sm mb-3"></div>
+            <div class="col-sm d-flex justify-content-between">
+              <label for="total">Total</label>
+              <h4>Rp1.440.000</h4>
+            </div>
+          </div>
+          <hr />
           <div class="row mt-4">
             <div class="col-sm">
-                <div class="form-group">
-                    <label>Catatan*</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Contoh : Sudah Lunas"
-                    />
-                  </div>
+              <div class="form-group">
+                <label>Catatan*</label>
+                <p>Sudah Lunas</p>
+              </div>
             </div>
             <div class="col-sm"></div>
             <div class="col-sm">
-                <div class="form-group text-right">
-                    <label>Tanda Tangan</label>
-                    <br/>
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Tanda_tangan_bapak.png" alt="tanda tangan" width="100">
-                   <br/>
-                <input type="text" name="" class="form-control text-right" value="Owner Belitung Furniture" placeholder="Nama Yang Bertanda Tangan">
-                  </div>
+              <div class="form-group text-right">
+                <label>Tanda Tangan</label>
+                <br />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/04/Tanda_tangan_bapak.png"
+                  alt="tanda tangan"
+                  width="100"
+                />
+                <br />
+                <p>Owner Belitung Furniture</p>
+              </div>
             </div>
           </div>
-
-          <hr />
-
-            <div class="row mb-4">
-              <div class="col-sm">
-                <button type="submit" class="btn btn-primary form-control">Buat Nota</button>
-              </div>
-              <div class="col-sm mb-3">
-              </div>
-              <div class="col-sm d-flex justify-content-between">
-                <label for="total">Total</label>
-                <h4>Rp1.440.000</h4>
-              </div>
-          </div>
-        </form>
+        </div>
       </div>
     </section>
 

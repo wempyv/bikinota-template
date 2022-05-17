@@ -10,6 +10,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+nav .breadcrumb {
+  font-size: 14px;
+}
+
 .container .navbar-brand img {
   height: 2.5rem;
 }
@@ -389,6 +393,24 @@ body {
   margin-top: 4rem;
 }
 
+.buat-nota-section .section-breadcrumb .breadcrumb-item span {
+  font-weight: 600;
+  color: #212C35;
+}
+
+.buat-nota-section .section-breadcrumb .breadcrumb-item span i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.buat-nota-section .section-breadcrumb .btn {
+  border: 1px solid #E2DEDE;
+}
+
+.buat-nota-section .section-breadcrumb .btn i {
+  font-size: 22px;
+}
+
 .buat-nota-section h3 {
   font-size: 24px;
   font-weight: 600;
@@ -418,5 +440,21 @@ body {
 .buat-nota-section table td .quantity-input {
   width: 4rem;
   margin: auto;
+}
+
+.detail-nota-section label {
+  font-size: 18px;
+  color: #BFBFBF;
+}
+
+.detail-nota-section p {
+  color: #212C35;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.detail-nota-section tr p {
+  font-weight: 400;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
