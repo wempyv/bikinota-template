@@ -385,8 +385,11 @@ body {
   }
 }
 
-.buat-nota-section h3 {
+.buat-nota-section .section-breadcrumb {
   margin-top: 4rem;
+}
+
+.buat-nota-section h3 {
   font-size: 24px;
   font-weight: 600;
 }
