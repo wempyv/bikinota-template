@@ -359,3 +359,39 @@ body {
         display: none;
     }
 }
+
+.buat-nota-section {
+    h3 {
+        margin-top: 4rem;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    hr {
+        border: 1px solid #DDDDDD;
+    }
+
+    .form-group {
+        white-space: nowrap;
+    }
+
+    table {
+        background-color: #FFF8F8;
+
+        th {
+            white-space: nowrap;
+        }
+
+        td {
+            input {
+                width: 16rem;
+                margin: auto;
+            }
+
+            .quantity-input {
+                width: 4rem;
+                margin: auto;
+            }
+        }
+    }
+}

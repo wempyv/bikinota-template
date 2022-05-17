@@ -384,4 +384,36 @@ body {
     display: none;
   }
 }
+
+.buat-nota-section h3 {
+  margin-top: 4rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.buat-nota-section hr {
+  border: 1px solid #DDDDDD;
+}
+
+.buat-nota-section .form-group {
+  white-space: nowrap;
+}
+
+.buat-nota-section table {
+  background-color: #FFF8F8;
+}
+
+.buat-nota-section table th {
+  white-space: nowrap;
+}
+
+.buat-nota-section table td input {
+  width: 16rem;
+  margin: auto;
+}
+
+.buat-nota-section table td .quantity-input {
+  width: 4rem;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
