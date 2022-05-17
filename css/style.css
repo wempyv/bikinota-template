@@ -10,16 +10,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.btn {
-  margin-top: 1rem;
-  padding: .3rem 1.4rem;
-  background-color: #4E60C4;
-}
-
-.btn:hover {
-  background-color: #5964a1;
-}
-
 .container .navbar-brand img {
   height: 2.5rem;
 }
@@ -52,6 +42,16 @@ body {
           align-items: center;
   text-align: center;
   background: white;
+}
+
+.jumbotron .btn {
+  margin-top: 1rem;
+  padding: .3rem 1.4rem;
+  background-color: #4E60C4;
+}
+
+.jumbotron .btn:hover {
+  background-color: #5964a1;
 }
 
 .jumbotron h1 {

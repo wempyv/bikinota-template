@@ -10,15 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.btn {
-    margin-top: 1rem;
-    padding: .3rem 1.4rem;
-    background-color: #4E60C4;
 
-    &:hover {
-        background-color: #5964a1;
-    }
-}
 
 .container {
     .navbar-brand {
@@ -49,6 +41,16 @@ body {
     align-items: center;
     text-align: center;
     background: white;
+
+    .btn {
+        margin-top: 1rem;
+        padding: .3rem 1.4rem;
+        background-color: #4E60C4;
+
+        &:hover {
+            background-color: #5964a1;
+        }
+    }
 
     h1 {
         text-transform: capitalize;
@@ -288,7 +290,6 @@ body {
     }
 
     .table-responsive-sm {
-
         tbody {
             tr {
                 background: #FFF8F8;
