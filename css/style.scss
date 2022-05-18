@@ -440,3 +440,31 @@ nav .breadcrumb {
         }
     }
 }
+
+.section-pengaturan {
+    margin-top: 4rem !important;
+
+    img {
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .form-group label {
+        font-size: 16px;
+        color: #212C35;
+    }
+
+    #sig-canvas {
+        border: 2px dotted #CCCCCC;
+        border-radius: 15px;
+        cursor: crosshair;
+        display: block;
+    }
+}

@@ -457,4 +457,33 @@ nav .breadcrumb {
   font-weight: 400;
   font-size: 16px;
 }
+
+.section-pengaturan {
+  margin-top: 4rem !important;
+}
+
+.section-pengaturan img {
+  height: 120px;
+  width: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.section-pengaturan p {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.section-pengaturan .form-group label {
+  font-size: 16px;
+  color: #212C35;
+}
+
+.section-pengaturan #sig-canvas {
+  border: 2px dotted #CCCCCC;
+  border-radius: 15px;
+  cursor: crosshair;
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
